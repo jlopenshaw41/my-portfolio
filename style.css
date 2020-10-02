@@ -1,0 +1,113 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8edeb;
+    color: #505050;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    /*border: solid red 1px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    text-transform: uppercase;
+    /*border: solid red 1px;*/
+}
+
+main {
+    align-items: center;
+    background-color: hsl(9, 48%, 98%);
+    /*border: solid red 1px;*/
+    border-radius: 1.25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    width: 65%;
+}
+
+img {
+    height: 175px;
+    border-radius: 100%;
+    width: 175px;
+}
+
+h2 {
+    /*border: solid red 1px;*/
+    font-size: 1.75rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+p {
+    /*border: solid red 1px;*/
+    color: #282828;
+    font-weight: 100;
+    letter-spacing: 0.75px;
+    line-height: 1.5;
+    margin: 1rem;
+}
+
+a {
+    /*border: solid red 1px;*/
+}
+
+button {
+    border: solid red 1px;
+}
+
+section {
+    border: solid red 1px;
+    background-color: hsl(9, 48%, 98%);
+    display: flex;
+    margin: 0 auto;
+    width: 65%;
+}
+
+article {
+    border: solid red 1px;
+}
+
+figure {
+    border: solid red 1px;
+}
+
+figcaption {
+    border: solid red 1px;
+}
+
+span {
+    border: solid red 1px;
+}
+
+aside {
+    border: solid red 1px;
+}
+
+h4 {
+    border: solid red 1px;
+    font-weight: 100;
+}
+
+ul {
+    border: solid red 1px;
+}
+
+footer {
+    border: solid red 1px;
+}
