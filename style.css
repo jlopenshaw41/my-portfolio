@@ -23,8 +23,9 @@ h1 {
     letter-spacing: 3px;
     padding-top: 5rem;
     padding-bottom: 7rem;
+    text-align: center;
     text-transform: uppercase;
-    /*border: solid red 1px;*/
+   
 }
 
 main {
@@ -165,6 +166,17 @@ ul {
     letter-spacing: 0.75px;
     list-style-position: outside;
     padding: 20px 30px;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    ul {
+        width: 400px;
+    }
+
+    aside img {
+        height: 160px;
+    }
 }
 
 ul li {
