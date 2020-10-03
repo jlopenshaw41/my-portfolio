@@ -7,6 +7,7 @@ body {
     background-color: #f8edeb;
     color: #505050;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 header {
@@ -40,8 +41,8 @@ main {
 }
 
 img {
-    height: 175px;
     border-radius: 100%;
+    height: 175px;
     width: 175px;
 }
 
@@ -57,7 +58,6 @@ h2 {
 p {
     /*border: solid red 1px;*/
     color: #282828;
-    font-weight: 100;
     letter-spacing: 0.75px;
     line-height: 1.5;
     margin: 1rem;
@@ -71,14 +71,25 @@ button {
     background-color: #f9dcc4;
     border: none;
     border-radius: 10px;
-    color: #282828;
     font-size: 0.9rem;
-    font-weight: 100;
     height: 60px;
     letter-spacing: 0.75px;
     margin: 2rem;
+    position: relative;
     width: 175px;
-    
+}
+
+button a {
+    color: #282828;
+}
+
+button:hover {
+    background-color: #fec89a;
+}
+
+button:active {
+    top: 2px;
+    left: 2px;
 }
 
 section {
@@ -86,15 +97,12 @@ section {
     background-color: hsl(9, 48%, 98%);
     border-radius: 1.25%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 0 auto;
     margin-top: 40px;
     padding: 2rem 3rem;
     width: 65%;
-}
-
-article {
-    /*border: solid red 1px;*/
-    width: 25%;
 }
 
 figure {
@@ -102,38 +110,71 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
 }
 
 figcaption {
     /*border: solid red 1px;*/
-    font-weight: 100;
+    font-size: 0.9rem;
     letter-spacing: 0.75px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     width: 175px;
 }
 
-article p {
-    font-size: 0.75rem;
-    width: 175px;
-}
-
-article a {
+a {
     text-decoration: none;
 }
 
+span {
+    font-size: 0.6rem;
+}
+
 aside {
-    border: solid red 1px;
+    background-color: hsl(9, 48%, 98%);
+    border-radius: 1.25%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 2rem 3rem;
+    width: 65%;
+}
+
+article {
+    display: flex;
+    padding-left: 0px;
+    width: 100%;
+}
+
+aside img {
+    border-radius: 3px;
+    height: 200px;
+    width: auto;
+}
+
+aside figure {
+    margin-left: 0px;
 }
 
 h4 {
-    border: solid red 1px;
+    font-size: 1.25rem;
     font-weight: 100;
 }
 
 ul {
-    border: solid red 1px;
+    
+    letter-spacing: 0.75px;
+    list-style-position: inside;
+    padding: 20px;
+}
+
+ul li {
+    padding: 20px;
 }
 
 footer {
-    border: solid red 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
 }
