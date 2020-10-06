@@ -88,6 +88,10 @@ button:hover {
     background-color: #fec89a;
 }
 
+button:focus {
+    background-color: #fec89a;
+}
+
 button:active {
     top: 2px;
     left: 2px;
