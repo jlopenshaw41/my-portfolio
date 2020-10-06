@@ -192,6 +192,10 @@ footer {
     text-align: center;
 }
 
+::selection {
+    background-color: #fec89a;
+}
+
 .contact {
     text-align: center;
 }
