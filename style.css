@@ -11,7 +11,6 @@ body {
 }
 
 header {
-    /*border: solid red 1px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +30,6 @@ h1 {
 main {
     align-items: center;
     background-color: hsl(9, 48%, 98%);
-    /*border: solid red 1px;*/
     border-radius: 1.25%;
     display: flex;
     flex-direction: column;
@@ -48,7 +46,6 @@ img {
 }
 
 h2 {
-    /*border: solid red 1px;*/
     font-size: 1.75rem;
     font-weight: 100;
     letter-spacing: 1px;
@@ -57,15 +54,10 @@ h2 {
 }
 
 p {
-    /*border: solid red 1px;*/
     color: #282828;
     letter-spacing: 0.75px;
     line-height: 1.5;
     margin: 1rem;
-}
-
-a {
-    /*border: solid red 1px;*/
 }
 
 button {
@@ -98,7 +90,6 @@ button:active {
 }
 
 section {
-    /*border: solid red 1px;*/
     background-color: hsl(9, 48%, 98%);
     border-radius: 1.25%;
     display: flex;
@@ -111,7 +102,6 @@ section {
 }
 
 figure {
-    /*border: solid red 1px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +109,6 @@ figure {
 }
 
 figcaption {
-    /*border: solid red 1px;*/
     font-size: 0.9rem;
     letter-spacing: 0.75px;
     margin-top: 0.5rem;
