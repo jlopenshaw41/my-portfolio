@@ -77,7 +77,15 @@ button a {
 }
 
 button:hover {
-    background-color: #fec89a;
+    animation-name: background-color;
+    animation-duration: 350ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+    100% {
+        background-color: #fec89a;
+    }
 }
 
 button:focus {
