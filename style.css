@@ -72,14 +72,15 @@ button {
     width: 175px;
 }
 
-button a {
+button {
     color: #282828;
 }
 
 button:hover {
     animation-name: background-color;
-    animation-duration: 350ms;
+    animation-duration: 300ms;
     animation-fill-mode: forwards;
+    cursor: pointer;
 }
 
 @keyframes background-color {
