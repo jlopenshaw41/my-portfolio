@@ -85,7 +85,7 @@ button:hover {
 
 @keyframes background-color {
     100% {
-        background-color: #fec89a;
+        background-color:  #fec89a;
     }
 }
 
@@ -197,3 +197,30 @@ footer {
 .contact {
     text-align: center;
 }
+
+.social i {
+	padding: 2rem;
+	font-size: 2rem;
+	position: relative;
+}
+
+i:hover {
+	color:  #FFB5A7;
+	transform: scale(1.2);
+}
+
+i:active {
+	color:  #FFB5A7;
+	top: 2px;
+	left: 2px;
+}
+
+/* unvisited link */
+.social a:link {
+    color: #595959;
+  }
+  
+  /* visited link */
+  .social a:visited {
+    color: #595959;
+  }
