@@ -28,7 +28,7 @@ h1 {
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-delay: 8s;
+    animation-delay: 5s;
 }
 
 @keyframes flip-text {
