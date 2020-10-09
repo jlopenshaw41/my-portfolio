@@ -188,16 +188,6 @@ ul {
     
 }
 
-@media only screen and (max-width: 800px) {
-    ul {
-        width: 400px;
-    }
-
-    aside img {
-        height: 160px;
-    }
-}
-
 ul li {
     padding: 20px;
 }
@@ -231,4 +221,30 @@ i:active {
 	color:  #FFB5A7;
 	top: 2px;
 	left: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    main {
+        padding: 2rem 1.5rem;
+    }
+    
+    ul {
+        width: 400px;
+    }
+
+    aside img {
+        height: 160px;
+    }
+
+    i {
+       font-size: 1.5rem;
+       padding-left: 1.5rem;
+       padding-right: 1.5rem; 
+    }
 }
