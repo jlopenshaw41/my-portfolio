@@ -48,6 +48,13 @@ h1 {
       }
 }
 
+/* Contact page header text */
+
+.contact-header {
+    text-transform: none;
+    animation: none;
+}
+
 /* 'About me' section */
 
 main {
@@ -212,6 +219,24 @@ ul li {
 footer {
     padding: 20px;
     text-align: center;
+}
+
+/* Contact form */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 40px;
+}
+
+.form-field {
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 40px;
+    height: 48px;
 }
 
 /* Text highlighting */
