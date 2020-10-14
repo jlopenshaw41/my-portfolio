@@ -83,6 +83,7 @@ h2 {
     font-size: 1.75rem;
     font-weight: 100;
     letter-spacing: 1px;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     text-transform: uppercase;
 }
@@ -194,13 +195,10 @@ article {
 }
 
 aside img {
-    border-radius: 3px;
+    border-radius: 5px;
     height: 180px;
+    padding-top: 15px;
     width: auto;
-}
-
-aside figure {
-    margin-left: 0px;
 }
 
 h3 {
@@ -230,6 +228,7 @@ footer {
 form {
     display: flex;
     flex-direction: column;
+    width: 65%;
 }
 
 label {
@@ -242,19 +241,24 @@ textarea {
     border-radius: 40px;
 }
 
+form button {
+    align-self: center;
+}
+
 .form-field {
     border: 1px solid rgb(227, 227, 227);
     border-radius: 40px;
     height: 48px;
 }
 
-.contact-form {
-    padding-top: 10px;
-}
+
+/* '*required' explanation text for form */
 
 .contact-form p {
     align-self: flex-end;
     margin: 0;
+    font-size: smaller;
+    text-align: right;
 }
 
 /* Text highlighting */
@@ -299,7 +303,7 @@ i:active {
     }
     
     main, section, aside {
-        padding: 2rem 1rem;
+        padding: 1rem;
         width: 80%;
     }
 
@@ -309,18 +313,19 @@ i:active {
     }
 
     aside img {
-        width: 100%;
+        border-radius: 2px;
+        width: 75%;
         height: auto;
-    }
-
-    aside figure {
-        margin: 1rem;
     }
 
     i {
        font-size: 1.5rem;
        padding-left: 1.5rem;
        padding-right: 1.5rem; 
+    }
+
+    form {
+        width: 80%;
     }
 }
 
