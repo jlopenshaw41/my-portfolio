@@ -248,6 +248,16 @@ form button {
     align-self: center;
 }
 
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-buttons button {
+    min-width: 175px;
+}
+
 .clear-form {
     background-color: transparent;
     text-decoration: underline;
@@ -366,6 +376,10 @@ i:active {
 
     article img {
         padding-top: 20px;
+    }
+
+    .clear-form {
+        margin-top: 0;
     }
 }
 
