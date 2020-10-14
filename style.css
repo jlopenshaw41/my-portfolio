@@ -53,6 +53,8 @@ h1 {
 .contact-header {
     text-transform: none;
     animation: none;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 /* 'About me' section */
@@ -156,8 +158,10 @@ figure {
 
 figcaption {
     font-size: 0.9rem;
+    hyphens: auto;
     letter-spacing: 0.75px;
     margin-top: 0.5rem;
+    text-align: justify;
     width: 175px;
 }
 
@@ -228,6 +232,11 @@ form {
     flex-direction: column;
 }
 
+label {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 textarea {
     border: 1px solid rgb(227, 227, 227);
     border-radius: 40px;
@@ -237,6 +246,15 @@ textarea {
     border: 1px solid rgb(227, 227, 227);
     border-radius: 40px;
     height: 48px;
+}
+
+.contact-form {
+    padding-top: 10px;
+}
+
+.contact-form p {
+    align-self: flex-end;
+    margin: 0;
 }
 
 /* Text highlighting */
@@ -282,6 +300,7 @@ i:active {
     
     main, section, aside {
         padding: 2rem 1rem;
+        width: 80%;
     }
 
     article {
