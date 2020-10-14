@@ -25,13 +25,13 @@
     <main class="contact-form">
         <form action="" method="POST">
             <label for="name">Your name</label>
-            <input type="text" id="name" name="name" class="form-field">
+            <input type="text" id="name" name="name" class="form-field" required>
             
             <label for="email">Your email</label>
-            <input type="email" id="email" name="email" class="form-field">
+            <input type="email" id="email" name="email" class="form-field" required>
 
             <label for="message">What would you like to say?</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
 
         <div class="form-buttons">
             <button type="button" id="submit-form">Send message</button>
