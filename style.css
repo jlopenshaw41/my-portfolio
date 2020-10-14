@@ -189,7 +189,6 @@ aside {
 
 article {
     display: flex;
-    /*flex-wrap: wrap;*/
     padding-left: 0px;
     width: 100%;
 }
@@ -239,6 +238,9 @@ label {
 textarea {
     border: 1px solid rgb(227, 227, 227);
     border-radius: 40px;
+    color: #505050;
+    font-family: inherit;
+    padding: 20px;
 }
 
 form button {
@@ -248,17 +250,10 @@ form button {
 .form-field {
     border: 1px solid rgb(227, 227, 227);
     border-radius: 40px;
+    color: #505050;
     height: 48px;
-}
-
-
-/* '*required' explanation text for form */
-
-.contact-form p {
-    align-self: flex-end;
-    margin: 0;
-    font-size: smaller;
-    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Text highlighting */
