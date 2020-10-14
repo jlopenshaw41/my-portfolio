@@ -248,6 +248,12 @@ form button {
     align-self: center;
 }
 
+.clear-form {
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 75%;
+}
+
 .form-field {
     border: 1px solid rgb(227, 227, 227);
     border-radius: 40px;
@@ -256,6 +262,16 @@ form button {
     height: 48px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.clear-form:focus {
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+.clear-form:hover {
+    animation: none;
+    transform: scale(1.1);
 }
 
 /* Text highlighting */
@@ -323,6 +339,15 @@ i:active {
 
     form {
         width: 80%;
+    }
+
+    .form-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clear-form {
+        margin-top: 0;
     }
 }
 
