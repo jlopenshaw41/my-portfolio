@@ -237,10 +237,11 @@ label {
 
 textarea {
     border: 1px solid rgb(227, 227, 227);
-    border-radius: 40px;
+    border-radius: 16px;
     color: #505050;
     font-family: inherit;
-    padding: 20px;
+    font-size: 0.9rem;
+    padding: 12px 20px;
 }
 
 form button {
@@ -251,6 +252,7 @@ form button {
     border: 1px solid rgb(227, 227, 227);
     border-radius: 40px;
     color: #505050;
+    font-size: 0.9rem;
     height: 48px;
     padding-left: 20px;
     padding-right: 20px;
