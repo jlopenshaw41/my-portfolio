@@ -274,6 +274,16 @@ form button {
     padding-right: 20px;
 }
 
+/* '*required' explanation text for form */
+
+.contact-form p {
+   align-self: flex-end;
+  margin: 0;
+  font-size: smaller;
+  text-align: right;
+
+}
+
 .clear-form:focus {
     background-color: transparent;
     transform: scale(1.1);
