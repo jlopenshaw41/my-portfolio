@@ -5,19 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <title>Jennifer Openshaw - About Me</title>
+    <title>Jennifer Openshaw | About Me</title>
     <script src="https://kit.fontawesome.com/082f459113.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
 <!-- 'Skip to content' link for accessibility -->
 
-    <p><a href="#about-me">Skip to content</a></p>
+    <p class="skip"><a href="#about-me">Skip to content</a></p>
+
+<!-- Nav -->
+
+<div class="topnav" id="myTopnav">
+    <div>
+    <a href="/index.html" >Home</a>
+    <a href="/about.html" class="active">About</a>
+    <a href="/contact.html">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+</div>
 
 <!-- 'Jennifer Openshaw' header section -->
 
     <header>
-        <h1>Jennifer Openshaw</h1>
+        <h1 class="about-header">Jennifer Openshaw</h1>
     </header>
 
 <!-- 'About me' section -->
@@ -100,9 +113,8 @@
 			<a href="mailto:jen@jenniferopenshaw.dev"><i class="far fa-envelope"></i></a>
         </div>
         
-<!-- Copyright text -->
-
-        <small>&COPY; Jennifer Openshaw</small>
     </footer>
+<script src="javascript.js"></script>
+
 </body>
 </html>

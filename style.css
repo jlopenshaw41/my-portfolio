@@ -10,10 +10,68 @@ body {
     font-weight: 100;
 }
 
+.skip {
+    position: absolute;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav div {
+    display: none;
+}
+  
+.topnav a {
+    display: none;
+    color: #505050;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.topnav a:hover {
+    color: #FFB5A7;
+    transform: scale(1.1);
+}
+
+.topnav a.icon {
+    float: right;  
+    display: block;
+    font-size: 1.5rem;
+    padding: 0;
+}
+  
+.topnav a.active {
+    color: #B0B0B0;
+}
+
+.topnav.responsive div {
+    background-color: hsl(9, 48%, 98%);
+    border-radius: 1.25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    height: 200px;
+    width: 150px;
+    z-index: 1;
+}
+
+.topnav.responsive a {
+    display: block;
+}
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 0;
 }
 
 /* 'Jennifer Openshaw' header*/
@@ -22,7 +80,7 @@ h1 {
     font-size: 3.5rem;
     font-weight: 100;
     letter-spacing: 3px;
-    padding-top: 5rem;
+    padding-top: 250px;
     padding-bottom: 7rem;
     text-align: center;
     text-transform: uppercase;
@@ -48,13 +106,17 @@ h1 {
       }
 }
 
+.about-header {
+    animation: none;
+    padding-top: 75px;
+}
+
 /* Contact page header text */
 
 .contact-header {
     text-transform: none;
     animation: none;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-top: 75px;
 }
 
 /* 'About me' section */
@@ -218,7 +280,7 @@ ul li {
 }
 
 footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -277,7 +339,7 @@ form button {
 /* '*required' explanation text for form */
 
 .contact-form p {
-   align-self: flex-end;
+    align-self: flex-end;
   margin: 0;
   font-size: smaller;
   text-align: right;
@@ -400,3 +462,7 @@ i:active {
         width: 550px;
     }
 }
+
+
+    
+ 
