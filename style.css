@@ -380,6 +380,11 @@ form button {
     padding: 10px 20px;
 }
 
+.links a:hover {
+    color: #FFB5A7;
+    transform: scale(1.1);
+}
+
 .projects img {
     border-radius: 0%;
     height: auto;
