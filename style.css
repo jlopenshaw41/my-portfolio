@@ -387,9 +387,9 @@ form button {
 
 .projects img {
     border-radius: 0%;
-    height: auto;
+    height: auto!important;
     max-width: 100%;
-    width: auto;
+    width: 100%!important;
 }
 
 /* '*required' explanation text for form */
