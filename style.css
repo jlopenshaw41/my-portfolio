@@ -10,6 +10,10 @@ body {
     font-weight: 100;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .skip {
     position: absolute;
 }
